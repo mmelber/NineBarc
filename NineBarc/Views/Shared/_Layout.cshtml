@@ -3,12 +3,12 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - My ASP.NET Application</title>
+    <title>@ViewBag.Title - NineBarc</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -21,8 +21,9 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Dashboard", "Dashboard", "Home")</li>
-                    <li>@Html.ActionLink("My Vault", "MyVault", "Home")</li>
-                    <li>@Html.ActionLink("My Receivers", "MyReceivers", "Home")</li>
+                    <li>@Html.ActionLink("Secure Sharing", "SecureSharing", "Home")</li>
+                    <li>@Html.ActionLink("Legal Resources", "LegalResources", "Home")</li>
+                    <li><a href="">Login</a></li>
                 </ul>
             </div>
         </div>

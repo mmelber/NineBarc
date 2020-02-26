@@ -20,15 +20,15 @@ namespace NineBarc.Controllers
             return View();
         }
 
-        public ActionResult MyVault()
+        public ActionResult SecureSharing()
         {
-            ViewBag.Message = "My vault";
+            ViewBag.Message = "Secure Sharing";
 
             return View();
         }
-        public ActionResult MyReceivers()
+        public ActionResult LegalResources()
         {
-            ViewBag.Message = "My Receivers";
+            ViewBag.Message = "Legal Resources";
 
             return View();
         }
