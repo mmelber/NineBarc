@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NineBarc", "NineBarc\NineBarc.csproj", "{6C7DEE37-5A12-4EFA-8833-001EC14024BD}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NineBarc.Core", "NineBarc.Core\NineBarc.Core.csproj", "{5AFD672E-5A0F-4E67-BB05-76A7EEF78252}"
 EndProject
 Global
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6C7DEE37-5A12-4EFA-8833-001EC14024BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6C7DEE37-5A12-4EFA-8833-001EC14024BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6C7DEE37-5A12-4EFA-8833-001EC14024BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6C7DEE37-5A12-4EFA-8833-001EC14024BD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5AFD672E-5A0F-4E67-BB05-76A7EEF78252}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5AFD672E-5A0F-4E67-BB05-76A7EEF78252}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5AFD672E-5A0F-4E67-BB05-76A7EEF78252}.Release|Any CPU.ActiveCfg = Release|Any CPU
